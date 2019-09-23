@@ -1,0 +1,30 @@
+#big{
+    border-radius: 200px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
+#rect{
+    width:250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left:75px;
+    bottom: 80px;
+}
+.small{
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    position: absolute;
+   /* top:20px*/
+}
+
+#s2{
+    right: 0px;
+}

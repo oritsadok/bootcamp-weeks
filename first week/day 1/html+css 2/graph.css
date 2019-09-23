@@ -1,0 +1,58 @@
+#ff{
+    width: 500px;
+    height: 300px;
+    background-color: darkslateblue;
+    position: relative;
+    /*margin:20px;*/
+}
+.tt{
+    font-weight: bold;
+    position: absolute;
+    font-size:30px;
+
+}
+#t1{right: 20px;
+    bottom:20px;
+
+}
+#t2{
+    left:20px;
+    top:20px;
+}
+
+.gf{
+    background-color: darkgrey;
+    position: absolute;
+   /* padding: 20px;*/
+    margin-left: 20px;
+    width:30px;
+    display:inline-block;
+    bottom:20px;
+}
+
+#f1{
+height: 30px;
+left :10px;
+}
+#f2{
+    height:100px;
+    left:70px;
+
+}
+#f3{
+    height:150px;
+    left:130px;
+}
+#f4{
+    height: 220px;
+    left:190px;
+}
+#f5{
+    height: 180px;
+    left: 250px;
+
+}
+#f6{
+    height: 120px;
+    left: 310px;
+}
