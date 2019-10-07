@@ -1,8 +1,8 @@
 const isEven = function (num) {
-    if (sum = num % 2 === 0) {
+    if ( num % 2 === 0) {
         return true
     } else  {
-        sum =num % 2 === !0
+       // sum =num % 2 === !0
     return false
 
     }

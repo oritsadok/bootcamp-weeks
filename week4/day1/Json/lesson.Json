@@ -1,0 +1,18 @@
+{
+  "animalName":"chava",
+    "animalWeight":{
+        "amount": 50,
+        "units":"kg"
+    },
+    "livingArea": "jungle",
+    "endangered": false,
+    "food":{
+        "leavs":"25%",
+        "flowers":"25%",
+        "insects":"25%",
+        "grass":"25%"},
+
+    "hunters":["lion","tigris"],
+    "deliciousRate": 5
+
+}

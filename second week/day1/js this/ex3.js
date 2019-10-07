@@ -3,7 +3,6 @@ const pumpFuel = function (plane) {
 };
 
 
-
 const airplane = {
     fuel: 0,
     fly: function () {

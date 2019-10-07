@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script type="text/x-handlebars-template" class="animals">
+        {{#each animals}}
+            <div>{{this}}</div>
+        {{/each}}
+    </script>
+    
+    <div id="animals">
+    </div>
+
+    <script type="text/x-handlebars-template" class="languages" >
+        <ul>
+            {{#each languages}}
+                <li>text:{{this}}</li>
+            {{/each}}
+        </ul>
+    </script>
+
+    <div id="languages"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="lesson.js"></script>
+    </div>
+</body>
+
+</html>
