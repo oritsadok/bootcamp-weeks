@@ -59,6 +59,26 @@
 // fetch("title","How to Win Friends and influence people")
 
 
+
+// const fetch= function (queryType,queryValue) {
+
+//     $.ajax({
+//         method: "GET",
+//         url: 'https://www.googleapis.com/books/v1/volumes?q='+queryType+":"+queryValue,
+//         success: function (data) {
+//            data.items.forEach(d=>console.log(d.volumeInfo.title
+//              +d.volumeInfo.authors[0]
+//              +d.volumeInfo.industryIdentifiers[0].type));
+//         },
+//         error: function (xhr, text, error) {
+//             console.log(text);
+//         }
+//     });
+// }
+
+
+// fetch("title", "How to Win Friends and Influence People")
+
 //ex4
 // const fetch= function(){
 // $.ajax({
@@ -95,7 +115,7 @@
 //         },
 //         error: function (xhr, text, error) {
 //             console.log(text);
-            
+
 //         }
 //     });
 // }

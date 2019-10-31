@@ -42,7 +42,7 @@
 // for (let vegetable of orangeVegetables) {
 //     console.log(vegetable.name) //the oldest way
 // }
-//shorter way using foreach
+//shorter way - using foreach
 // orangeVegetables.forEach(ov => console.log(ov.name))
 
 
@@ -68,6 +68,7 @@
 
 
 //map- return a new modifides arrow
+
 // let poundWeights = [142, 180, 178, 121, 132]
 
 // let kiloWeights = poundWeights.map(pw => Math.round(pw / 2.2))

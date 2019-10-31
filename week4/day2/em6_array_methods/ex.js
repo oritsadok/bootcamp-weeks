@@ -267,8 +267,9 @@ let users = [
 //  console.log(findBysuite.name)
 
 
+//ex7
 
-
+ //users.forEach(u=>console.log(u.name +" lives in: "+ u.address.city+" and owns the company "+u.company.name))
 
 
 
